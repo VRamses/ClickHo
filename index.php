@@ -1,80 +1,93 @@
-﻿<?php include "header.php"; ?>
-
+﻿<?php include "navbar.php"; ?>
 
 <body>
+    <div class="hero-content">
+        <h1>Enfeite a arvore de natal da sua vida</h1>
+        <p>Um brinde a alegria!!</p>
+    </div>
 
-    <div id="principal">
-        <header class= "hero">
-            <nav>
-                <ul>
-                    <li><a href="index.php">Início</a></li>
-                    <li><a href="sobre.php">Sobre</a></li>
-                    <li><a href="custom.php">Customização</a></li>
-                    <li><a href="maisvot.php">Mais votado</a></li>
-                </ul>
-            </nav>
-                <div class="hero-content">
-                    <h1>Enfeite a arvore de natal da sua vida</h1>
-                    <p>Um brinde a alegria!!</p>
-                </div>
-        </header>
+ <main>
+    <section class="content-section"> 
+        <header class= "content-header"><h2>Escolha seu cartão preferido</h2></header>
 
-        <main>
-            <section class="content-section"> 
-                <article>
-                    <header class= "content-header"><h2>Escolha seu cartão preferido</h2></header>
-                    <section class="content-section">
-                    <div class="card card-6">
-                    <img src="imagens/card1.png" alt="">
-                    <p><a href="custom.php"><p>Cartão 01 - Olha Khomich</p></a></p>
-                </div>
+    <div class="container-fluid">
+        <div class="row align-center">
+            <div class="col-md-4">
+                <figure class="figure">
+                    <a href="custom.php?rota=card1" style="text-decoration:none";>
+                        <img src="imagens/card1.png" class="figure-img img-fluid rounded" alt="...">
+                        <div class="subtitulo">Cartão 01 - Olha Khomich</div>
+                    </a>
+                </figure>
+            </div>
+            <div class="col-md-4">
+                <figure class="figure">
+                    <a href="custom.php?rota=card2" style="text-decoration:none";>
+                        <img src="imagens/card2.png" class="figure-img img-fluid rounded" alt="...">
+                        <div class="subtitulo">Cartão 02 - Marina Mogulskaya</div>
+                    </a>
+                </figure>
+            </div>
+            <div class="col-md-4">
+                <figure class="figure">
+                    <a href="custom.php?rota=card3" style="text-decoration:none";>
+                        <img src="imagens/card3.png" class="figure-img img-fluid rounded" alt="...">
+                        <div class="subtitulo">Cartão 03 - Natasha Remarchuk</div>
+                    </a>
+                </figure>
+            </div>
+        </div>
+    </div>
 
-                <div class="card card-7">
-                    <img src="imagens/card2.png" alt="">
-                    <p><a href="custom.php"><p>Cartão 02 - Marina Mogulskaya</p></a></p>
-                </div>
+    <section class="content-section"> 
+        <header class= "content-header"><h2>Desenvolvido por</h2></header>
 
-                <div class="card card-8">
-                    <img src="imagens/card3.png" alt="">
-                    <p><a href="custom.php"><p>Cartão 03 - Natasha Remarchuk</p></a></p>
-                </div>
-            </section>
-                </article>
-            </section>
+    <div class="container-fluid">
+        <div class="row justify-content-md-center">
+            <div class="col-md-2">
+                <figure class="figure">
+                    <a href="https://github.com/caio-henri" style="text-decoration:none";>
+                        <img src="imagens/1.png" class="figure-img img-fluid rounded" alt="...">
+                        <div class="subtitulo">Caio Henrique</div>
+                    </a>
+                </figure>
+            </div>
+            <div class="col-md-2">
+                <figure class="figure">
+                    <a href="https://github.com/jcnunes70019" style="text-decoration:none";>
+                        <img src="imagens/2.png" class="figure-img img-fluid rounded" alt="...">
+                        <div class="subtitulo">José Carlos</div>
+                    </a>
+                </figure>
+            </div>
+            <div class="col-md-2">
+                <figure class="figure">
+                    <a href="https://github.com/K-BSilva/K-BSilva" style="text-decoration:none";>
+                        <img src="imagens/3.png" class="figure-img img-fluid rounded" alt="...">
+                        <div class="subtitulo">Kátia Barros</div>
+                    </a>
+                </figure>
+            </div>
+            <div class="col-md-2">
+                <figure class="figure">
+                    <a href="https://github.com/LucasLeal01" style="text-decoration:none";>
+                        <img src="imagens/4.png" class="figure-img img-fluid rounded" alt="...">
+                        <div class="subtitulo">Lucas Leal</div>
+                    </a>
+                </figure>
+            </div>
+            <div class="col-md-2">
+                <figure class="figure">
+                    <a href="https://github.com/VRamses" style="text-decoration:none";>
+                        <img src="imagens/5.png" class="figure-img img-fluid rounded" alt="...">
+                        <div class="subtitulo">Victor Ramsés</div>
+                    </a>
+                </figure>
+            </div>
+        </div>
+    </div>
 
-            <section class="content-section">
-                <article>
-                    <header class= "content-header"><h2> Desenvolvido por </h2></header>
-                        <ol>                
-                            <div class="mini-card">
-                            <img class="imagem1" src="imagens/1.png" alt="" width="100">
-                            <p class="letra">Caio Henrique</p>
-                            </div>
-
-                            <div class="mini-card">
-                            <img class="imagem1" src="imagens/2.png" alt="" width="100">
-                            <p class="letra">José Carlos</p>
-                            </div>
-
-                            <div class="mini-card">
-                            <img class="imagem1" src="imagens/3.png" alt="" width="100">
-                            <p class="letra">Kátia Barros</p>
-                            </div>
-
-                            <div class="mini-card">
-                            <img class="imagem1" src="imagens/4.png" alt="" width="100">
-                            <p class="letra">Lucas Leal</p>
-                            </div>
-
-                            <div class="mini-card">
-                            <img class="imagem1" src="imagens/5.png" alt="" width="100">
-                            <p class="letra">Victor Ramsés</p>
-                            </div>
-
-                        </ol>
-                </article>
-            </section>
-        </main>
+</main>
 
         <footer class="rodape">
             <p>Copyright &copy; 2021</p>

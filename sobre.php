@@ -18,17 +18,7 @@
 
 </head>
 <body>
-    <div id="principal">
-        <header class= "hero">
-            <nav>
-                <ul>
-                    <li><a href="index.php">Início</a></li>
-                    <li><a href="sobre.php">Sobre</a></li>
-                    <li><a href="custom.php">Customização</a></li>
-                    <li><a href="maisvot.php">Mais votado</a></li>
-                </ul>
-            </nav>
-
+<?php include 'navbar.php'?>
 <main>
             <section class="content-section"> 
                 <article>

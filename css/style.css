@@ -1,17 +1,14 @@
-﻿
-body{
-    background:#ccc; /*background fundo cinza*/
+﻿body{
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 
 .hero{
     background-image: url(../imagens/bg-6.png);/*formatação - imagem topo*/
-    height: 500px;
-    background-position: right center;
-    background-size: cover;
+    background-size: contain;
     border-top: 1px solid transparent;
 }
+
 .hero-content { /*formatação posição - imagem topo*/
     text-align:center;
     color: rgb(249, 250, 249);
@@ -19,17 +16,27 @@ body{
     font-family: 'Mountains of Christmas', cursive;
 }
 
-.hero-content h1 { /*formatação texto principal- imagem topo - sobreamento*/
+@font-face {
+    font-family:'Christmas';
+    src: url('../fonts/happy.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Christmas', Times, serif;
+    font-weight: normal;
     text-transform: uppercase;
-    font-size: 45px;
+    font-size: 70px;
     text-shadow: 3px 3px 1px #333;
 }
 
 .hero-content p { /*formatação paragrafo abaixo do texto principal*/
     background-color: rgba(7, 83, 93, 0.8);
+    margin: 0;
     display: inline-block;
-    padding: 15px;
-    font-size: 18px;
+    padding: 10px;
+    font-size: 30px;
     border-bottom: 2px solid black;
 }
 
@@ -57,13 +64,9 @@ body{
     letter-spacing: 2px;
     font-weight: bold;
 }
+
 .hero nav a:hover {/*transparência cabeçalho - menu topo*/
   background: rgba(0, 0, 0, 0.5);
-}
-
-main { /*disposição que os componentes ocupam na página*/
-    width: 100%;
-    margin: auto;
 }
 
 .content-section { /*espaçamento entre uma sessão e outra e formatação */
@@ -75,43 +78,26 @@ main { /*disposição que os componentes ocupam na página*/
     font-size: 18px;
 }
 
-.card { /*enquadramento das imagens do card*/
-    width: 32%;
-    float: left;
-    box-sizing: border-box;
+.img-fluid{
+    margin-top: 30px;
 }
 
-
-.card-1, .card-2, .card-3 { /*alinhamento dos cards dos devs*/
-    margin-right: 5%;
-    width: 15%;
-}
-.card-4, .card-5 {
-    margin-top: 2.5%;
-    margin-right: 5%;
-    width: 15%;
+.formulario{
+    text-align: center;
 }
 
-.card-6, .card-7, .card-8 {
-    margin-right: 1%;
-    width: 30%;
-}
-
-.card img {  /*dimensão que o card ocupa*/
-    width: 100%;
-    display: block;
-}
-
-.card p { /*posição do texto do card*/
+.subtitulo{ /*Indicativo das imagens no index*/
     background-color: rgb(180, 175, 175);
     color: black;
-    color: #14524f;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Kaushan Script', cursive;
     margin: 0;
     padding: 5px;
-    text-align: center;
-    font-family: 'Kaushan Script', cursive;
-    font-size: 18px;
+}
 
+.container-fluid{ /*Posicionamento dos cards na tela inicial*/
+    margin-top: 20px;
 }
 
 .content-header { /*espaçamento entre uma sessão e outra*/
@@ -123,10 +109,10 @@ main { /*disposição que os componentes ocupam na página*/
 .content-header h2 { /*formatação título sesssão desenvolvedores*/
     margin: 0;
     text-align: center;
-    text-shadow: 3px 3px 6px #333;
+    text-shadow: 1px 1px 1px #333;
     color: #166863;
     font-family: 'Mountains of Christmas',cursive;
-
+    font-size: 60px;
 }
 
 .content-section ol img { /*formatação img desenvolvedores*/
@@ -146,22 +132,10 @@ main { /*disposição que os componentes ocupam na página*/
     font-family: 'Mountains of Christmas',
     cursive;
 }
-.mini-card {
-    margin: 10px 80px;
-    display: flex;
-    justify-content:center;
-    margin-top: 1%;
-}
-
 .letra {
     margin-top: 3%;
 }
 
-.imagem1 {
-
-    margin-right: 1%;
-    width: 32%;
-    float: left;
-    box-sizing: border-box;
-
+.btn{
+    margin-bottom: 20px;
 }
