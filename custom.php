@@ -26,6 +26,12 @@ if(isset($_GET['rota'])){
         case 'card3':
             include "custom/card3.php";
         break;
+        case 'maisuti':
+            include "maisuti.php";
+        break;
+        case 'card4':
+            include "custom/card4.php";
+        break;
 
     }
 }

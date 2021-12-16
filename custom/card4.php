@@ -1,18 +1,18 @@
 <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-md-6">
-                <img src="imagens/card2.png" class="img-fluid" alt=""></div>
+                <img src="imagens/card3.png" class="img-fluid" alt=""></div>
             </div>
         </div>
     </div>
 
 <div class="forms">
-<form method="POST" action="_scripts/salvar_card2.php">
+<form method="POST" action="_scripts/salvar_card4.php">
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <label for="exampleFormControlTextarea1" class="form-label">Destinatário</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" required rows="1"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" name="nome" required rows="1"></textarea>
             </div>
         </div>
     </div>
@@ -30,7 +30,7 @@
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <label for="exampleFormControlTextarea1" class="form-label">Remetente</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" name="nome" required rows="1"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" required rows="1"></textarea>
             </div>
         </div>
     </div>

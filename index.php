@@ -3,7 +3,7 @@
 <body>
     <div class="hero-content">
         <h1>Enfeite a arvore de natal da sua vida</h1>
-        <p>Um brinde a alegria!!</p>
+        <a href="custom.php?rota=card4"><p>Um brinde à alegria!!</p></a>
     </div>
 
  <main>
