@@ -1,4 +1,4 @@
-<?php include "../navbar.php"; ?>
+<?php include_once "../navbar.php"; ?>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <?php
 if (!empty($_POST)){
@@ -20,7 +20,7 @@ if (!empty($_POST)){
             }).then((result) => {
             /* Read more about isConfirmed, isDenied below */
             if (result.isConfirmed) {
-                location.href="../custom.php?rota=home";
+                location.href="../custom.php?rota=card2";
             }
         })
     </script>
@@ -37,7 +37,7 @@ if (!empty($_POST)){
             }).then((result) => {
             /* Read more about isConfirmed, isDenied below */
             if (result.isConfirmed) {
-                location.href="../custom.php?rota=home";
+                location.href="../custom.php?rota=card2";
             }
         })
     </script>

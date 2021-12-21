@@ -1,11 +1,11 @@
-<?php include "../navbar.php"; ?>
+<?php include_once "../index.php"; ?>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <?php
 if (!empty($_POST)){
     include "config.php";
     $nome = $_POST['nome'];
 
-    $sql = "INSERT INTO card4 (nome)
+    $sql = "INSERT INTO card1 (nome)
     values ('$nome')";
     $query = $mysqli->query($sql);
 
@@ -20,7 +20,7 @@ if (!empty($_POST)){
             }).then((result) => {
             /* Read more about isConfirmed, isDenied below */
             if (result.isConfirmed) {
-                location.href="../custom.php?rota=card4";
+                location.href="../custom.php?rota=card1";
             }
         })
     </script>
@@ -37,7 +37,7 @@ if (!empty($_POST)){
             }).then((result) => {
             /* Read more about isConfirmed, isDenied below */
             if (result.isConfirmed) {
-                location.href="../custom.php?rota=home";
+                location.href="../custom.php?rota=card1";
             }
         })
     </script>
@@ -48,4 +48,3 @@ else {
     echo "Página sem registros";
 }
 ?>
-

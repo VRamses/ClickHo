@@ -11,8 +11,8 @@
 <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
 <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
 <?php 
-include "_scripts/functions.php";
-include "_scripts/grafico_barra.php"; ?>
+include "scripts/functions.php";
+include "scripts/grafico_barra.php"; ?>
 
 
 <div class="container-fluid topo">
@@ -52,9 +52,9 @@ include "_scripts/grafico_barra.php"; ?>
         <div class="col-md-12">
             <div class="card border-dark">
                 <div class="card-body">
-                    <h5 class="card-title">Cards 1</h5>
+                    <h5 class="card-title">Total</h5>
                     <p class="card-text"></p>
-                    <div id="chartdiv"></div>	
+                    <div id="chartdiv"></div>
                 </div>
             </div>
         </div>
@@ -63,8 +63,7 @@ include "_scripts/grafico_barra.php"; ?>
 
 
 
-        <footer class="rodape">
-            <p>Copyright &copy; 2021</p>
-        </footer>
 </body>
 </html>
+
+<?php include "footer.php" ?>

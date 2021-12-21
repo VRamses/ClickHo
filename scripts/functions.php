@@ -33,6 +33,9 @@ function qtde_card3(){
 
 }
 
+$card1 = qtde_card1();
+$card2 = qtde_card2();
+$card3 = qtde_card3();
 
 
 ?>
