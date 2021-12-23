@@ -21,7 +21,7 @@ include "scripts/grafico_barra.php"; ?>
             <div class="card border-dark">
                 <div class="card-body">
                     <h5 class="card-title">Card 1</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Olha Khomich</h6>
+                    <h6 class="card-subtitle mb-2">Olha Khomich</h6>
                     <p class="card-text"><?php echo qtde_card1() ?></p>
                 </div>
             </div>
@@ -30,7 +30,7 @@ include "scripts/grafico_barra.php"; ?>
             <div class="card border-dark">
                 <div class="card-body">
                     <h5 class="card-title">Card 2</h5>
-                    <h6 class="card-subtitle mb-2 text muted">Marina Mogulskaya</h6>
+                    <h6 class="card-subtitle mb-2">Marina Mogulskaya</h6>
                     <p class="card-text"><?php echo qtde_card2() ?></p>
                 </div>
             </div>
@@ -39,7 +39,7 @@ include "scripts/grafico_barra.php"; ?>
             <div class="card border-dark">
                 <div class="card-body">
                     <h5 class="card-title">Card 3</h5>
-                    <h6 class="card-subtitle mb-2 text muted">Natasha Remarchuk</h6>
+                    <h6 class="card-subtitle mb-2">Natasha Remarchuk</h6>
                     <p class="card-text"><?php echo qtde_card3() ?></p>
                 </div>
             </div>

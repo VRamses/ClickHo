@@ -1,4 +1,14 @@
-   
+<script>
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    })
+    </script>
+
+<button type="button" class="btn btn-secondary" style="font-size:30px" data-container="body" data-toggle="popover" data-placement="right" data-content="Digite a mensagem no campo 'Digite Aqui!', salve a imagem clicando com o botão direito do mouse e indo na opção 'Salvar imagem como...', insira o e-mail para enviar e clique em 'Enviar'!">
+  Como usar?
+</button>
+  
+ 
   <div id="canvas-wrap">
      <canvas class="col-md-6" id="imageCanvas" width=1200px height=800px>
         <canvas id="canvasID"></canvas>

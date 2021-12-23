@@ -199,6 +199,7 @@ h1{
 }
 
 footer {
+    margin-top: 30px;
     height: 70px;
     position: sticky;
     background-color: lightgray;
@@ -236,5 +237,14 @@ footer {
     width: 100%;
 }
 
+.card-title{
+    font-size: 50px;
+}
 
+.card-subtitle{
+    font-size: 30px;
+}
 
+.card-text{
+    font-size: 30px;
+}
