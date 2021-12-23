@@ -20,7 +20,7 @@
     <br>
 
     <div class="input-group mb-5">
-    <textarea class="controls__input form-control" id="name" type="text" value=""></textarea>
+    <textarea class="controls__input form-control" id="name" required type="text" value=""></textarea>
     </div>
 
 
@@ -34,7 +34,7 @@
             <div class="col-md-6">
                 <label for="exampleFormControlTextarea1" class="form-label"
                 style="font-size:30px;">E-mail do Destinatário</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" name="nome" rows="1"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" name="nome" require rows="1"></textarea>
             </div>
         </div>
     </div>
