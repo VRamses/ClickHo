@@ -9,7 +9,7 @@
     <main>
         <section class="content-section">
             <header class="content-header">
-                <h2>Escolha seu cartão preferido</h2>
+                <h2>Escolha seu cartão preferido!</h2>
             </header>
 
             <div class="container-fluid">
